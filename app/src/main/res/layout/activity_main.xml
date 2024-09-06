@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton44"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/share_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView50"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/retweet_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton46"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton48"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/bookmark_outline_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton48"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton43"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <ImageButton
+        android:id="@+id/imageButton59"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView47"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/stats_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton45"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <ImageButton
+        android:id="@+id/imageButton60"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView46"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/heart_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton46"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <ImageButton
+        android:id="@+id/imageButton43"
+        android:layout_width="25dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="63dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        android:translationY="-5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView50"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        tools:src="@drawable/retweet_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="26dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton44"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:src="@drawable/share_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="26dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView47"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:src="@drawable/bookmark_outline_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="26dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:src="@drawable/comment_4_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton48"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton43"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/imageButton46"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="26dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView47"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:src="@drawable/stats_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton45"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/imageButton48"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="26dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView46"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:src="@drawable/heart_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton46"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton46"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton48"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView8"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toStartOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/roundedImageView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:text="username da silva"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toStartOf="@+id/textView52"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="300dp"
+        android:text="@string/lorem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8" />
+
+    <ImageButton
+        android:id="@+id/imageButton47"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="80dp"
+        android:background="#00FFFFFF"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        tools:src="@drawable/dots_vertical_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:text="\@Silvauser - 1h"
+        android:textColor="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView49"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton47"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton38"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton35"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView39"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/heart_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/retweet_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton36"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton36"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton37"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/comment_4_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/stats_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton40"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView42"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/bookmark_outline_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton39"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:src="@drawable/share_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton39"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton38"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintEnd_toStartOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearance="@style/roundedImageView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="7dp"
+        android:text="username da silva"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="\@Silvauser - 1h"
+        android:textColor="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView43" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="84dp"
+        android:background="#00FFFFFF"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView44"
+        tools:src="@drawable/dots_vertical_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="206dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="69dp"
+        android:text="@string/lorem"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="71dp"
+        android:text="@string/lorem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton31"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton28"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/heart_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView33"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/retweet_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton28"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton29"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton29"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton30"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/comment_4_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        tools:src="@drawable/comment_4_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/textView35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/stats_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton33"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/bookmark_outline_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="30dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton32"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        tools:src="@drawable/share_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14"
+        android:textColor="@color/text_gray"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton31"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="80dp"
+        android:background="#00FFFFFF"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView37"
+        tools:src="@drawable/dots_vertical_svgrepo_com" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView6"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/roundedImageView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="447dp"
+        android:text="username da silva"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton43"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="\@Silvauser - 1h"
+        android:textColor="@color/text_gray"
+        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView36" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="206dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="128dp"
+        android:text="@string/lorem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="80dp"
+        android:background="#00FFFFFF"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:src="@drawable/dots_vertical_svgrepo_com" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/roundedImageView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:text="username da silva"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:text="\@Silvauser - 1h"
+        android:textColor="@color/text_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trending"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_search"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alunos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_start" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

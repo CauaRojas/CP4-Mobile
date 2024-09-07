@@ -132,7 +132,7 @@
         android:id="@+id/imageButton43"
         android:layout_width="25dp"
         android:layout_height="26dp"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="72dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         android:src="@android:drawable/btn_star"
@@ -142,7 +142,6 @@
         app:layout_constraintEnd_toStartOf="@+id/textView50"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView51"
-        app:layout_constraintTop_toBottomOf="@+id/textView36"
         tools:src="@drawable/retweet_svgrepo_com" />
 
     <ImageButton
